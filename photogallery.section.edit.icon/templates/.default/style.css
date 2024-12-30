@@ -1,0 +1,6 @@
+.photo-controls a {margin:5px;}
+.photo-controls {margin:7px 0px;}
+
+.photo-photo {position:relative;float:left;padding:0px;margin:0px 10px 10px 0px;}
+.photo-photo input {position:absolute; z-index:1000; top:0px; left:0px;}
+.photo-photo img {border:1px solid #BBBBBB; cursor:pointer; cursor: hand;}

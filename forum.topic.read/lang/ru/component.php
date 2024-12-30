@@ -1,0 +1,30 @@
+<?
+$MESS ['F_MODERATOR'] = "Модератор";
+$MESS ['F_EDITOR'] = "Редактор";
+$MESS ['F_ADMIN'] = "Администратор";
+$MESS ['F_GUEST'] = "Гость";
+$MESS ['F_USER'] = "Пользователь";
+$MESS ['F_YOU_ALREADY_VOTE1'] = "Вы уже голосовали за этого человека и отдали ему #POINTS# голос#END#";
+$MESS ['F_YOU_ALREADY_VOTE3'] = "Вы можете отдать ему еще #POINTS# голос#END#, появившиеся у вас со времени предыдущего голосования.";
+$MESS ['F_VOTE_ADMIN'] = "Более функциональное голосование находится на странице профиля пользователя.";
+$MESS ['F_NO_VOTE'] = "Вы еще не голосовали за этого человека. ";
+$MESS ['F_NO_VOTE1'] = "Вы можете отдать ему #POINTS# голос#END#";
+$MESS ['F_FPERMS'] = "Для просмотра темы введите ваши логин и пароль.";
+$MESS ['F_TITLE_NAV'] = "Сообщения";
+$MESS ['F_INDEX'] = "Форумы";
+$MESS ['F_MESS_SUCCESS_SHOW'] = "Сообщения успешно показаны.";
+$MESS ['F_MESS_SUCCESS_HIDE'] = "Сообщения успешно скрыты.";
+$MESS ['F_MESS_SUCCESS_ADD'] = "Сообщение успешно добавлено.";
+$MESS ['F_MESS_SUCCESS_ADD_MODERATE'] = "Сообщение будет показано после одобрения модератором.";
+$MESS ['F_MESS_SUCCESS_DEL'] = "Сообщения успешно удалены.";
+$MESS ['F_TOPIC_SUCCESS_TOP'] = "Тема прикреплена.";
+$MESS ['F_TOPIC_SUCCESS_ORD'] = "Тема откреплена.";
+$MESS ['F_TOPIC_SUCCESS_OPEN'] = "Тема открыта.";
+$MESS ['F_TOPIC_SUCCESS_CLOSE'] = "Тема закрыта.";
+$MESS ['F_ERROR_FID_IS_LOST'] = "Форум не найден.";
+$MESS ['F_ERROR_TID_IS_LOST'] = "Тема не найдена.";
+$MESS ['F_ERROR_MID_IS_LOST'] = "Сообщение не найдено или было удалено.";
+$MESS ['F_ERROR_TID_MOVED'] = "Тема перенесена.";
+$MESS ['F_ERROR_TID_NOT_APPROVED'] = "Тема станет доступна для просмотра после одобрения модератором.";
+$MESS ['F_NO_MODULE'] = "Модуль форума не установлен.";
+?>

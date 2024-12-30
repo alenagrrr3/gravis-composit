@@ -1,0 +1,86 @@
+/* Panel */
+div.photo-user {
+	background-color: #E8E9EB;
+	padding:5px 10px 0px 10px;
+	width:100%;}
+div.photo-user-my{
+	background-color: #EFFFDE;}
+div.photo-action{}
+div.photo-controls {
+	margin:7px 0px; 
+	clear:both; 
+	width:100%;
+	height:20px!important;}
+div.photo-controls a.photo-action{
+	float:left;
+	display: block;
+	height:20px; 
+	padding-left:20px;
+	background-image: url('images/temp.gif');
+	background-position:left center;
+	background-repeat: no-repeat;
+	margin-right:15px;}
+div.photo-controls a.photo-upload{
+	background-image: url('images/ph_new.gif');}
+div.photo-controls a.gallery-create-first{
+	height:25px; 
+	padding-left:25px;
+	padding-top:5px;
+	background-image: url('images/create_first.gif');}
+div.photo-controls a.gallery-view{
+	background-image: url('images/photos.gif');}
+div.photo-controls a.gallery-view-list{
+	background-image: url('images/gallery.gif');}
+div.photo-controls a.gallery-edit{
+	background-image: url('images/gallery.gif');}
+
+table.gallery-table-header, table.gallery-table-header td{
+	font-size:100%;
+	text-align:left;}
+table.gallery-table-header td{
+	padding:5px;}	
+table.gallery-table-header td.size{
+	vertical-align:top;}
+div.photo-gallery-picture{
+	background-image: url('images/picture.gif');
+	background-position:center center;
+	background-repeat: no-repeat;}
+div.photo-gallery-name{
+	font-weight:bold;
+	font-size:120%;}
+div.photo-gallery-description{}
+/* /Panel */
+/* Progress-bar */
+a.gallery-recalc-begin{}
+a.gallery-recalc-continue{}
+table.gallery-size{}
+table.gallery-progress{}
+div.out {
+	width:200px;
+	margin: 0px; 
+	padding: 1px; 
+	border: #99bad7 1px solid; 
+	display: block; 
+	position: relative; 
+	top: 4px; 
+	text-align:left;
+	background-color: #ffffff;}
+div.out1 {
+	width:200px;
+	padding:0px; 
+	margin:0px; 
+	display: block; 
+	position: relative; 
+	top: -9px;}
+div.in {
+	padding: 0px; 
+	font-size: 8px; 
+	background-color: #cedeec;}
+div.in1 {
+	width:100%;
+	text-align: center;
+	padding: 0px; 
+	font-size: 10px; 
+	font-weight: normal; 
+	color:#444444;}
+/* /Progress-bar */

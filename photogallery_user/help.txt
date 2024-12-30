@@ -1,0 +1,93 @@
+/***************** ADDITIONAL **************************************/
+Строка из 70 элементов
+Для структурирования документа первы пробел через 20 элементов
+/********************************************************************
+				Input params
+				Default values
+				Actions
+				Get data from cache
+				Prepare Data
+********************************************************************/
+
+
+Порядок следавния свойств:
+
+Input params
+
+BASE properties - основные свойства 
+	IBLOCK_TYPE
+	IBLOCK_ID
+	SECTION_ID
+	SECTION_CODE
+	ELEMENT_ID
+	ELEMENT_CODE
+	USER_ALIAS
+	BEHAVIOUR (USER, SIMPLE)
+
+	SORT_BY		(SECTION_SORT_BY)
+	SORT_ORD	(SECTION_SORT_ORD)
+	
+	ELEMENTS_LAST_COUNT
+	ELEMENT_LAST_TIME
+	ELEMENT_SORT_FIELD
+	ELEMENT_SORT_ORDER
+	ELEMENT_FILTER
+	
+	
+
+URL properties - шаблоны путей
+
+ADDITIONAL
+	USE_PERMISSIONS
+
+	PAGE_ELEMENTS (SECTION_PAGE_ELEMENTS)
+	PAGE_NAVIGATION_TEMPLATE
+
+	DATE_TIME_FORMAT
+	SHOW_TAGS
+	
+	ALBUM_PHOTO_THUMBS_WIDTH
+	ALBUM_PHOTO_THUMBS_HEIGHT
+	ALBUM_PHOTO_WIDTH
+	ALBUM_PHOTO_HEIGHT
+	GALLERY_SIZE
+	
+	COMMENTS_TYPE
+	PICTURES
+	ADDITIONAL_SIGHTS
+	PICTURES_SIGHT
+	THUMBS_SIZE
+
+STANDART
+	CACHE_TYPE
+	CACHE_TIME
+	SET_TITLE
+	DISPLAY_PANEL
+
+TEMPLATE PARAMS
+	SHOW_TAGS
+	
+	
+URL_TEMPLATES_INDEX
+	fid_is_lost	- форум не указан
+URL_TEMPLATES_LIST	
+	tid_is_empty - не правильно передана тема
+
+	
+	
+Тело компонета состоит и след частей: 
+Input params
+Check main data 
+Default params
+Actions
+Data
+
+
+/bitrix/photogallery/".$arParams["IBLOCK_ID"]."/user/data/".$GLOBALS["USER"]->GetId()."/
+/bitrix/photogallery/".$arParams["IBLOCK_ID"]."/gallery/".$arParams["USER_ALIAS"]."/
+/bitrix/photogallery/".$arParams["IBLOCK_ID"]."/section/".$sUserAlias."/".$arSection["ID"]."/
+/bitrix/photogallery/".$arParams["IBLOCK_ID"]."/section_list/".$sUserAlias."/0/
+/bitrix/photogallery/".$arParams["IBLOCK_ID"]."/section_list/".$sUserAlias."/".$arSection["ID"]."/
+/bitrix/photogallery/".$arParams["IBLOCK_ID"]."/detail/".$sUserAlias."/".$arSection["ID"]."/
+/bitrix/photogallery/".$arParams["IBLOCK_ID"]."/detail_list/".$sUserAlias."/all/
+/bitrix/photogallery/".$arParams["IBLOCK_ID"]."/detail_list/".$sUserAlias."/".$arSection["ID"]."/

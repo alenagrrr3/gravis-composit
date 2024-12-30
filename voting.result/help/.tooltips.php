@@ -1,0 +1,10 @@
+<?
+$arTooltips = array(
+	"VOTE_ID" => GetMessage("VOTE_ID_TIP"),
+	"QUESTION_DIAGRAM_40" => GetMessage("QUESTION_DIAGRAM_40_TIP"),
+	"QUESTION_DIAGRAM_34" => GetMessage("QUESTION_DIAGRAM_34_TIP"),
+	"QUESTION_DIAGRAM_35" => GetMessage("QUESTION_DIAGRAM_35_TIP"),
+	"CACHE_TYPE" => GetMessage("CACHE_TYPE_TIP"),
+	"CACHE_TIME" => GetMessage("CACHE_TIME_TIP"),
+);
+?>

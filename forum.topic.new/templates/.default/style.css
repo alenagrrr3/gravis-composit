@@ -1,0 +1,16 @@
+div.forum-info-box
+{
+	padding:0.5em 1.117em;
+	border-width: 1px;
+	border-style: solid;
+	line-height: 1.5em;
+	zoom: 1;
+}
+div.forum-post-text { padding:0.5em 0; }
+/* Post Attachments */
+div.forum-post-attachments { margin:1.5em 0;}
+div.forum-post-attachments label { font-weight: bold; padding-bottom:0.5em;}
+div.forum-post-attachment { padding-left: 0.5em;}
+
+div.forum-post-lastedit { padding:0.5em 0; font-style: italic;}
+span.forum-post-lastedit-user { font-weight: bold;}

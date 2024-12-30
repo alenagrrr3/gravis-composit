@@ -1,0 +1,21 @@
+.voting-list-box
+{
+	font-size:100%;
+	border:1px solid #ccc;
+	padding:4px;
+}
+
+.voting-list-box .float-links
+{
+	float:right;
+}
+
+.voting-list-box .active
+{
+	color:green;
+}
+
+.voting-list-box .disable
+{
+	color:red;
+}

@@ -1,0 +1,147 @@
+div.forum-info-box
+{
+	padding:0.5em 1.117em;
+	border-width: 1px;
+	border-style: solid;
+	line-height: 1.5em;
+	zoom: 1;
+}
+
+/* Header Box*/
+div.forum-header-box { padding:0 1.117em; border-style: solid; border-width: 1px; }
+
+/* Header Box Right Links*/
+div.forum-header-options { float: right; padding:0.5em 0; }
+div.forum-header-options a:hover { text-decoration: underline;}
+
+/* Header Title */
+div.forum-header-title { font-size:1em; padding:0.462em 10em 0.426em 0; }
+
+/* Reply Form*/
+div.forum-reply-form
+{
+	border-style:solid;
+	border-width:1px;
+	line-height:1.5em;
+	margin-bottom:1em;
+}
+
+div.forum-reply-header
+{
+	font-size:1em; 
+	padding:0.462em 1.117em;
+	vertical-align:middle;
+}
+
+div.forum-reply-errors {border-width:1px; border-style: solid; margin: 1.117em; padding: 0.4em 1.117em;}
+div.forum-reply-errors ul {padding:0.3em 0 0.3em 2em; margin:0;}
+div.forum-reply-errors ul li {margin:0; padding:0;}
+
+div.forum-reply-fields { padding:0.462em 1.117em 0.8em; }
+
+div.forum-reply-field { margin-top: 0.2em; }
+
+div.forum-reply-field-title input, div.forum-reply-field-desc input { width: 80%;}
+
+div.forum-reply-field-user {width: 100%; /*IE Fix or zoom:1 */}
+
+div.forum-reply-field-author, div.forum-reply-field-email { float:left; width:39%; }
+
+div.forum-reply-field-user-sep { width:2%; float: left;}
+
+div.forum-reply-field-author input, div.forum-reply-field-email input { width:100%; }
+
+div.forum-reply-field-bbcode { line-height: 1.7em; }
+
+div.forum-bbcode-line { margin-right: 2em;}
+div.forum-smiles-line { white-space: nowrap;}
+
+div.forum-bbcode-line img, div.forum-smiles-line img { border: 0; vertical-align: middle;}
+div.forum-bbcode-line a, div.forum-bbcode-line img, div.forum-smiles-line a, div.forum-smiles-line img { outline: none; }
+
+div.forum-reply-field-text textarea { width: 95%; }
+
+div.forum-reply-field-tags { display: none; }
+div.forum-reply-field-tags input { width:80%; }
+
+
+div.forum-reply-field-captcha input { width: 180px;}
+
+div.forum-reply-field-settings input, div.forum-uploaded-file input { width:1.55em; height:1.55em; margin:0 0 0 -0.25em; vertical-align: middle; font-size:1em; }
+div.forum-reply-field-settings label, div.forum-uploaded-file a { vertical-align: middle; }
+
+div.forum-reply-field-upload a { outline: none;}
+div.forum-upload-file {display: none;}
+
+div.forum-reply-buttons { margin-top: 1em;}
+div.forum-reply-buttons input { padding:0 0.5em; }
+
+a.forum-bbcode-button{width:22px; height:22px; border:none; float:left; cursor:pointer; cursor:hand; background-position: center center; background-repeat:no-repeat; margin:1px;}
+a.forum-bbcode-button img {width:22px; height:22px; border:none;}
+a.forum-bbcode-color{background-image: url('images/bbcode/font_color.gif');}
+a.forum-bbcode-bold{background-image: url('images/bbcode/font_bold.gif');}
+a.forum-bbcode-italic{background-image: url('images/bbcode/font_italic.gif');}
+a.forum-bbcode-underline{background-image: url('images/bbcode/font_underline.gif');}
+a.forum-bbcode-strike{background-image: url('images/bbcode/font_strike.gif');}
+a.forum-bbcode-url{background-image: url('images/bbcode/font_link.gif');}
+a.forum-bbcode-img{background-image: url('images/bbcode/font_image.gif');}
+a.forum-bbcode-video{background-image: url('images/bbcode/font_video.gif');}
+a.forum-bbcode-code{background-image: url('images/bbcode/font_code.gif');}
+a.forum-bbcode-quote{background-image: url('images/bbcode/font_quote.gif');}
+a.forum-bbcode-quote{background-image: url('images/bbcode/font_quote.gif');}
+a.forum-bbcode-list{background-image: url('images/bbcode/font_list.gif');}
+a.forum-bbcode-translit{background-image: url('images/bbcode/font_translit.gif');}
+a.forum-bbcode-font{width:78px;	margin:1px;	padding:0px;height:22px;}
+a.forum-bbcode-font select{width:70px; margin-left:3px; padding:0px;}
+table.palette{border:1px solid gray; background-color:gray; border-collapse:collapse;}
+table.palette td{border:1px solid gray; width:10px; height:10px; padding:0px; margin:0px;}
+table.palette td img{width:10px; height:10px; border:none; padding:0px; margin:0px;}
+/* Popups */
+div.forum-popup-postform {
+	width:502px;
+	padding:0px; 
+	margin:0px;
+	overflow:hidden; 
+	color:black;}
+div.forum-popup-postform table.forum-popup {
+	border:1px solid gray;
+	width:500px;
+	background-color:white; 
+	font-size:1em;
+	cursor:default;}
+div.forum-popup-postform table.forum-popup td {
+	font-size:1em;
+	border:none;
+	background-color:white; 
+	font-size:1em;}
+div.forum-popup-postform table.forum-popup thead td {
+	font-weight:bold;
+	padding:0.5em 0.5em 0.1em 0.8em;
+	font-size:1.1em;
+	text-align:left;}
+div.forum-popup-postform table.forum-popup thead td div.close{
+	cursor:pointer;
+	cursor:hand;
+	background-image: url('images/close.gif');
+	background-position: center center;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	width:13px;
+	height:13px;
+	float:right;}
+div.forum-popup-postform table.forum-popup tbody td {
+	padding:1em;}
+div.forum-popup-postform table.forum-popup tbody td div.forum-field{
+	width:100%;}
+div.forum-popup-postform table.forum-popup tbody td div.forum-field span.title{
+	width:100%;
+	display:block;}
+div.forum-popup-postform table.forum-popup tbody td div.forum-field input {
+	width:95%;}
+div.forum-popup-postform table.forum-popup tfoot td {
+	padding:0.3em;
+	text-align:center;}
+/*/Popups */
+/* Utils */
+div.forum-clear-float { clear: both; } 
+div.forum-form {padding:0px; margin:0px; border:none;}

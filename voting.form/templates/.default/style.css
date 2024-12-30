@@ -1,0 +1,26 @@
+.voting-form-box
+{
+	font-size:100%;
+	border:1px solid #ccc;
+	padding:4px;
+}
+
+.voting-form-box .active
+{
+	color:green;
+}
+
+.voting-form-box .disable
+{
+	color:red;
+}
+
+.voting-form-box label
+{
+	line-height:20px;
+}
+
+.voting-form-box form
+{
+	margin:0;
+}

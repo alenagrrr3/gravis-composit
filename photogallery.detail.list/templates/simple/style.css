@@ -1,0 +1,49 @@
+div.photo-photos{}
+a.photo-gallery-avatar{
+	float:left;
+	margin:0px 10px 0px 0px;}
+div.photo-gallery-avatar{
+	background-position:center;
+	background-repeat:no-repeat;}
+div.photo-name{
+	margin-bottom:10px;}
+div.photo-simple-info{
+	margin:10px 0px 0px 0px;}
+/* Voting */
+div.star-active{	
+	cursor: pointer!important;}
+div.star-empty{
+	background-image: url(images/empty.gif)!important;
+	width:15px!important;
+	height:15px!important;
+	overflow:hidden!important;
+	display:block;}
+div.star-voted{
+	background-image: url(images/voted.gif)!important;
+	width:15px!important;
+	height:15px!important;
+	overflow:hidden!important;}
+div.star-over{
+	background-image: url(images/over.gif)!important;
+	width:15px!important;
+	height:15px!important;
+	overflow:hidden!important;}
+div.iblock-vote div.wait_vote {
+	padding: 0px 15px!important;}
+/*td.vote-count{
+	display:none;}*/
+/* /Voting */
+/* Standart */ 
+div.photo-controls a {
+	margin-right:15px;}
+div.photo-controls {
+	margin:7px 0px; 
+	clear:both; 
+	width:100%;}
+div.photo-navigation{
+	padding:7px 0px;}
+div.empty-clear{
+	clear:both;
+	width:100%;}
+div.photo-error{}
+/* /Standart */

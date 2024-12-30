@@ -1,0 +1,18 @@
+div.forum-info-box
+{
+	padding:0.5em 1.117em;
+	border-width: 1px;
+	border-style: solid;
+	line-height: 1.5em;
+	zoom: 1;
+}
+
+/* Header Box*/
+div.forum-header-box { padding:0 1.117em; border-style: solid; border-width: 1px; }
+
+/* Header Box Right Links*/
+div.forum-header-options { float: right; padding:0.5em 0; }
+div.forum-header-options a:hover { text-decoration: underline;}
+
+/* Header Title */
+div.forum-header-title { font-size:1em; padding:0.462em 10em 0.426em 0; }

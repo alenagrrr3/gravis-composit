@@ -1,0 +1,9 @@
+div.photo-gallery-avatar{
+	background-position:center;
+	background-repeat:none;}
+table.photo-table tbody td input, table.photo-table tbody td textarea{
+	width:100%;}
+table.photo-table tbody td input#GALLERY_ACTIVE{
+	width:auto!important;}
+table.photo-table tbody td textarea{
+	height:70px;}

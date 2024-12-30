@@ -1,0 +1,35 @@
+<?
+$MESS ['IBLOCK_TYPE'] = "Information Block type";
+$MESS ['IBLOCK_IBLOCK'] = "Information Block";
+$MESS ['IBLOCK_SECTION_URL'] = "Album";
+$MESS ['IBLOCK_DETAIL_URL'] = "Photo";
+$MESS ['IBLOCK_DETAIL_EDIT_URL'] = "Photo (editing)";
+$MESS ['IBLOCK_ELEMENT_CODE'] = "Element code";
+$MESS ['IBLOCK_ELEMENT_ID'] = "Element ID";
+$MESS ['IBLOCK_SECTION_CODE'] = "Section code";
+$MESS ['IBLOCK_SECTION_ID'] = "Section ID";
+$MESS ['T_IBLOCK_DESC_NEWS_PANEL'] = "Display panel buttons for this component";
+$MESS ['IBLOCK_ELEMENT_SORT_FIELD'] = "Field to sort photos";
+$MESS ['IBLOCK_ELEMENT_SORT_ORDER'] = "Sort order of the photos in a section";
+$MESS ['IBLOCK_SORT_ASC'] = "ascending";
+$MESS ['IBLOCK_SORT_DESC'] = "descending";
+$MESS ['IBLOCK_SORT_ID'] = "ID";
+$MESS ['IBLOCK_SORT_SHOWS'] = "average views";
+$MESS ['IBLOCK_SORT_SORT'] = "sorting index";
+$MESS ['IBLOCK_SORT_TIMESTAMP'] = "modification date";
+$MESS ['IBLOCK_SORT_NAME'] = "name";
+$MESS ['IBLOCK_SORT_RATING'] = "rating";
+$MESS ['IBLOCK_SORT_COMMENTS'] = "comments";
+$MESS ['T_DATE_TIME_FORMAT'] = "Date format";
+$MESS ['P_SHOW_TAGS'] = "Show tags";
+$MESS ['P_COMMENTS_TYPE'] = "Comments component";
+$MESS ['P_COMMENTS_TYPE_BLOG'] = "Blog";
+$MESS ['P_COMMENTS_TYPE_FORUM'] = "Forum";
+$MESS ['IBLOCK_SEARCH_URL'] = "Search page";
+$MESS ['T_IBLOCK_DESC_USE_PERMISSIONS'] = "Use additional access restriction";
+$MESS ['T_IBLOCK_DESC_GROUP_PERMISSIONS'] = "User groups allowed to view detailed description";
+$MESS ['IBLOCK_BEHAVIOUR'] = "Gallery mode";
+$MESS ['IBLOCK_BEHAVIOUR_SIMPLE'] = "simple";
+$MESS ['IBLOCK_BEHAVIOUR_USER'] = "multiuser";
+$MESS ['IBLOCK_USER_ALIAS'] = "Gallery code";
+?>

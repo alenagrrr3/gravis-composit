@@ -1,0 +1,100 @@
+body.photo-slide-show{
+	margin: 0px; 
+	padding:0px;
+	background-color:#999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size:11px;}
+table td{
+	font-size:11px;}
+body.photo-slide-showtable {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size:11px;}
+div#control_container{
+	position: relative;
+	width: 100%;}
+div#navigator_container{
+	padding:5px;}
+div#control_container div#title{
+	color: #e6e6e6;
+	padding: 0px;
+	overflow:hidden;}
+div#control_container div#navigator_container{
+	display: none;
+	position: absolute;
+	width:600px;
+	background-color:#616161;}
+div#control_container div#navigator_container td {
+	padding:0px;
+	color:#c9c9c9;}
+div#control_container div#navigator_container table.inner {}
+div#control_container div#navigator_container table.inner td {
+	padding:0px 5px 0px 0px;}
+div#prev{
+	cursor:hand;
+	pointer:hand;
+	width:31px;
+	height:21px;
+	background-image: url("images/slideshow_prev.gif");
+	background-position: left top;
+	background-repeat: no-repeat;}
+div#next{
+	cursor:hand;
+	pointer:hand;
+	width:31px;
+	height:21px;
+	background-image: url("images/slideshow_next.gif");
+	background-position: left top;
+	background-repeat: no-repeat;}
+div#pause{
+	cursor:hand;
+	pointer:hand;
+	width:21px;
+	height:21px;
+	background-image: url("images/slideshow_pause.gif");
+	background-position: left top;
+	background-repeat: no-repeat;}
+div#play{
+	cursor:hand;
+	pointer:hand;
+	width:21px;
+	height:21px;
+	background-image: url("images/slideshow_play.gif");
+	background-position: left top;
+	background-repeat: no-repeat;}
+div#stop{
+	cursor:hand;
+	pointer:hand;
+	width:21px;
+	height:21px;
+	background-image: url("images/slideshow_stop.gif");
+	background-position: left top;
+	background-repeat: no-repeat;}
+div#time_minus{
+	cursor:hand;
+	pointer:hand;
+	width:14px;
+	height:13px;
+	background-image: url("images/slideshow_minus.gif");
+	background-position: left top;
+	background-repeat: no-repeat;}
+div#time_plus{
+	cursor:hand;
+	pointer:hand;
+	width:14px;
+	height:13px;
+	background-image: url("images/slideshow_plus.gif");
+	background-position: left top;
+	background-repeat: no-repeat;}
+div.image-upload{
+position:absolute; 
+height:20px; 
+vertical-align:middle; 
+background-color:#D81C1C; 
+float:left; 
+color:white; 
+font-size:12px; 
+font-weight:bold; 
+padding:5px;
+top:0px;
+left:0px;
+display:none;}

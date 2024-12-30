@@ -1,0 +1,20 @@
+<?
+$MESS ['F_SHOW_TAGS'] = "Показывать теги";
+$MESS ['F_DEFAULT_PATH_TO_SMILE'] = "Путь относительно корня сайта к папке со смайлами";
+$MESS ['F_DEFAULT_PATH_TO_ICON'] = "Путь относительно корня сайта к папке с иконками к темам";
+$MESS ['F_PAGE_NAVIGATION_TEMPLATE'] = "Название шаблона для вывода постраничной навигации";
+$MESS ['F_THEMES'] = "Темы";
+$MESS ['F_PAGE_NAVIGATION_WINDOW'] = "Количество страниц в постраничной навигации";
+$MESS ['F_THEME_BEIGE'] = "Бежевый";
+$MESS ['F_THEME_BLUE'] = "Голубой";
+$MESS ['F_THEME_FLUXBB'] = "FluxBB";
+$MESS ['F_THEME_GRAY'] = "Серый";
+$MESS ['F_THEME_GREEN'] = "Зеленый";
+$MESS ['F_THEME_ORANGE'] = "Оранжевый";
+$MESS ['F_THEME_RED'] = "Красный";
+$MESS ['F_THEME_WHITE'] = "Белый";
+$MESS ['F_SHOW_AUTH'] = "Показывать форму авторизации";
+$MESS ['F_SHOW_ADDITIONAL_MARKER'] = "Дополнительный маркер для новых сообщений";
+$MESS ['F_SHOW_NAVIGATION'] = "Показывать навигационную цепочку";
+$MESS ['F_SHOW_SUBSCRIBE_LINK'] = "Показывать ссылку 'Подписка' в верхнем меню";
+?>

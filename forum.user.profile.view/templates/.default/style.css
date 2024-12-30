@@ -1,0 +1,56 @@
+div.tabs {margin:0px; width:100%;}
+/* Tab controls*/
+table.tabs {border:none; border-left:1px solid #99BAD7; padding:0px; margin:0px; font-size:100%;}
+table.tabs td {border:none; padding:0px; margin:0px; font-size:100%;}
+table.tabs td.tab-indent-left {border:none; border-bottom:1px solid #99BAD7; display:none;}
+table.tabs td.tab-indent-right {border:none; border-bottom:1px solid #99BAD7;}
+table.tabs td.tab-indent-right div.empty{width:100%;}
+table.tabs td.tab-container {border:1px solid #99BAD7; border-left: none; cursor:pointer; cursor: hand;}
+table.tabs td.tab-container-selected {border:1px solid #99BAD7; border-left: none; border-bottom:1px solid #F1F5FA; cursor:default; background-color:#F1F5FA;}
+
+table.tabs table {border:none; font-size:100%;}
+table.tabs table td {font-size:100%; font-weight:bold; white-space:nowrap; vertical-align:top; padding:4px; height:21px; border:none;}
+table.tabs table td.tab {border-top:2px solid #CEDEEC;}
+table.tabs table td.tab-selected {border-top:2px solid red;}
+table.tabs table td.tab-hover {border-top:2px solid #99BAD7;}
+
+/* Tab inside edit form */
+table.tab {border:1px solid #B8C1DD; border-top:none; width:100%; font-size:100%;}
+table.tab td {background-color:#F1F5FA; padding:4px 4px 9px 4px; font-size:100%; vertical-align:top;}
+table.tab-content {font-size:100%;}
+table.tab-content td.field-name {text-align: right; width:150px;}
+
+/* Header Box*/
+div.forum-header-box { padding:0 1.117em; border-style: solid; border-width: 1px; }
+
+/* Header Box Right Links*/
+div.forum-header-options { float: right; padding:0.5em 0; }
+div.forum-header-options a:hover { text-decoration: underline;}
+
+/* Header Title */
+div.forum-header-title { font-size:1em; padding:0.462em 10em 0.426em 0; }
+
+/* Main Forum/Topic List Table */
+table.forum-table { width: 100%; }
+
+/* Table Header */
+table.forum-table th
+{
+	font-size:1em;
+	padding:0.462em 1em;
+	font-weight:normal;
+	vertical-align:middle;
+	text-align: left;
+}
+
+/* Table Cell */
+table.forum-table td
+{
+	border: 1px solid;
+	vertical-align:top;
+	padding:0.4em 1em;
+}
+
+/* Utils */
+div.forum-clear-float { clear: both; }
+form.forum-form {padding:0px; margin:0px; border:none;}

@@ -1,0 +1,34 @@
+/* Header Box*/
+div.forum-header-box { padding:0 1.117em; border-style: solid; border-width: 1px; }
+
+/* Header Box Right Links*/
+div.forum-header-options { float: right; padding:0.5em 0; }
+div.forum-header-options a:hover { text-decoration: underline;}
+
+/* Header Title */
+div.forum-header-title { font-size:1em; padding:0.462em 10em 0.426em 0; }
+
+/* Main Forum/Topic List Table */
+table.forum-table { width: 100%; }
+
+/* Table Header */
+table.forum-table th
+{
+	font-size:1em;
+	padding:0.462em 1em;
+	font-weight:normal;
+	vertical-align:middle;
+	text-align: left;
+}
+
+/* Table Cell */
+table.forum-table td
+{
+	border:none;
+	vertical-align:top;
+	padding:0.4em 1em;
+}
+
+/* Utils */
+div.forum-clear-float { clear: both; }
+form.forum-form {padding:0px; margin:0px; border:none;}

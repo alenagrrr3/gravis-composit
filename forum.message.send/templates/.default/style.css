@@ -1,0 +1,52 @@
+table.forum-main {
+	background-color:#99BAD7;
+	border: none;
+	border-collapse: collapse;
+	margin: 0px;
+	width: 100%;
+	font-size: 100%;}
+
+table.forum-main th {
+	background-color:#CEDEEC;
+	border: 1px solid #99BAD7;
+	font-weight: normal;
+	padding:4px;
+	white-space:nowrap;}
+
+table.forum-main th.wraping {
+	white-space:normal;}
+
+table.forum-main th.left {
+	text-align:left;}
+
+table.forum-main td {
+	background-color:#F1F5FA;
+	border: 1px solid #99BAD7;
+	padding: 4px;
+	vertical-align:top;}
+div.forum-title {
+	border: 1px solid #99BAD7;
+	padding: 4px;
+	background-color: #CEDEEC;
+	color: #000000;
+	font-weight: bold;
+	font-size: 100%;}
+
+/* Standart styles */
+div.forum-br {
+	height:4px;
+	width:100%;
+	border:none;
+	overflow:hidden;}
+div.forum-hr {
+	background-color: #99BAD7;
+	margin: 4px 0px 4px 0px;
+	padding: 0px;
+	height: 1px;
+	width:100%;
+	overflow:hidden;}
+form.forum-form {
+	padding: 0px;
+	margin: 0px;
+	border: none;}
+/*/Standart styles */

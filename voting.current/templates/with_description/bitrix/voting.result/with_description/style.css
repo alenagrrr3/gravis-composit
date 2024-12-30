@@ -1,0 +1,46 @@
+/*font */
+.voting-result-box, .vote-answer-table, .vote-bar-table
+{
+	font-size:100%;
+}
+
+
+.voting-result-box
+{
+	border:1px solid #ccc;
+	padding:8px;
+}
+
+.voting-result-box .active
+{
+	color:green;
+}
+
+.voting-result-box .disable
+{
+	color:red;
+}
+
+.voting-result-box label
+{
+	line-height:20px;
+}
+
+.voting-result-box form
+{
+	margin:0;
+}
+
+
+.vote-bar-table
+{
+}
+
+.vote-bar-square
+{
+	width:10px;
+	height:10px;
+}
+
+
+
